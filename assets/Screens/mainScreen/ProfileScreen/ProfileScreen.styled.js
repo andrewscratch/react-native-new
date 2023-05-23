@@ -1,0 +1,88 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+  },
+  imageBG: {
+    flex: 1,
+    resizeMode: "cover",
+    justifyContent: "flex-end",
+  },
+  title: {
+    fontSize: 30,
+    lineHeight: 35,
+    textAlign: "center",
+    color: "#212121",
+  },
+  form: {
+    position: "relative",
+    paddingTop: 20,
+    marginTop: 200,
+    paddingBottom: 140,
+    backgroundColor: "#fff",
+    borderTopLeftRadius: 25,
+    borderTopRightRadius: 25,
+    minHeight: 500,
+  },
+  photoDef: {
+    position: "absolute",
+    top: -60,
+    left: "50%",
+    transform: [{ translateX: -50 }],
+    width: 120,
+    height: 120,
+    backgroundColor: "#F6F6F6",
+    borderRadius: 16,
+  },
+  addPhotoIcon: {
+    position: "absolute",
+    bottom: 14,
+    right: -12,
+    width: 25,
+    height: 25,
+    backgroundColor: "#fff",
+    borderRadius: 24 / 2,
+  },
+  input: {
+    fontSize: 16,
+    backgroundColor: "#F6F6F6",
+    borderWidth: 1,
+    borderColor: "#E8E8E8",
+    borderRadius: 8,
+    padding: 16,
+    lineHeight: 19,
+    color: "#212121",
+  },
+  focusedTextInput: {
+    borderColor: "#FF6C00",
+  },
+  passwordModeText: {
+    position: "absolute",
+    top: 20,
+    right: 16,
+    color: "#1B4371",
+    fontSize: 16,
+    lineHeight: 19,
+  },
+  btn: {
+    backgroundColor: "#FF6C00",
+    borderRadius: 100,
+    justifyContent: "center",
+    alignItems: "center",
+    padding: 16,
+    marginBottom: 16,
+  },
+  btnText: {
+    fontSize: 16,
+    lineHeight: 19,
+    color: "#fff",
+  },
+  linkText: {
+    color: "#1B4371",
+    fontSize: 16,
+    lineHeight: 19,
+    textAlign: "center",
+  },
+});
